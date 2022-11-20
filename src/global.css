@@ -1,0 +1,126 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+html, body {
+    /*background-image: url(https://i.pinimg.com/originals/5f/08/58/5f085809f2b711643e4eb4974cc03c0e.gif);
+*/
+ background-image: url(https://img.freepik.com/free-vector/abstract-blue-wavy-with-blurred-light-curved-lines-background_1409-1240.jpg?w=2000);
+ 
+    font-family: 'Roboto Mono', monospace;
+
+}
+.container {
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.container .header{
+display: flex;
+flex-direction: column;
+align-items: center;
+margin-bottom: 40px;
+}
+.container .header span{
+    padding-top: 8px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+}
+/*.logo{
+    width: 45px;
+    height: 55px;
+}*/
+.header img{
+    width: 170px;
+    height: 100%;
+}
+.container form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.container form .inputcontainer{
+
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.container form .inputcontainer label{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    margin-bottom: 8px;
+}
+.container form .inputcontainer input{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 16px;
+
+    width: 520px;
+    height: 49px;
+    border: 1px solid #5c73D8;
+    border-radius: 12px;
+    margin-bottom: 12px;
+}
+.container form a{
+    font-weight: 400;
+    font-size: 16px;
+    line-height:  19px;
+
+    padding-top: 16px;
+    padding-bottom: 16px;
+    color: #5c73d8;
+}
+.container form .Button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border:none;
+
+    width: 520px;
+    height: 48px;
+    background: #5c73d8;
+    border-radius: 12px;
+
+    font-size: 18px;
+    line-height: 22px;
+
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    color: #fff;
+}
+.Button img{
+    height: 30px;
+    width: 20px;
+}
+.container form .Button:hover {
+    cursor: pointer;
+    opacity: 0.9;
+}
+.container form .footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+}
+.container form .footer p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
